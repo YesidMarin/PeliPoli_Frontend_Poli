@@ -13,11 +13,14 @@
       "budget": "Budget",
       "addFavorite": "Add to favorites",
       "removeFavorite": "Remove from favorites",
-      "info": "information"
+      "info": "Information"
     },
     "home": {
       "title": "Welcome to PeliPoli",
-      "subtitle": "Popular Movies"
+      "description": "Grancolombian Polytechnic Frontend Project. Search for movies, find out which movies are the most popular, are it top rated or will arrive very soon.",
+      "subtitlePopular": "Popular Movies ❤",
+      "subtitleUpcoming": "Upcoming Movies 🔥",
+      "subtitleTop": "Top Rated Movies ⭐"
     },
     "favorites": {
       "title": "Favorits",

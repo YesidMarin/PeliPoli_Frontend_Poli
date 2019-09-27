@@ -36,6 +36,8 @@ import { AppComponent } from './app.component';
 import { ApplicationErrorHandler } from './app.error-handler';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { HeaderComponent } from './components/header/header.component';
+import { HomeComponent } from './pages/home/home.component';
+import { MovieComponent } from './components/movie/movie.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { HeaderComponent } from './components/header/header.component';
     CurrencyProxyPipe,
     DateProxyPipe,
     NotFoundComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeComponent,
+    MovieComponent
   ],
   imports: [
     BrowserModule,

@@ -16,7 +16,10 @@
     },
     "home": {
       "title": "Bienvenido a PeliPoli",
-      "subtitle": "Peliculas populares"
+      "description": "Proyecto Frontend Politécnico Grancolombiano. Busca películas, Entérate que películas son las más populares, están en él top o llegarán muy pronto.",
+      "subtitlePopular": "Películas Populares ❤",
+      "subtitleUpcoming": "Próximas Películas 🔥",
+      "subtitleTop": "Películas mejor calificadas ⭐"
     },
     "favorites": {
       "title": "Favoritos",
