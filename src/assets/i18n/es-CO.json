@@ -1,0 +1,42 @@
+{
+    "header": {
+      "home": "Inicio",
+      "favorites": "Favoritos",
+      "search": "Buscar"
+    },
+    "movie": {
+      "title": "Titulo",
+      "release": "Fecha de lanzamiento",
+      "overview" : "Vista previa",
+      "averageVote": "Popularidad",
+      "genres": "Generos",
+      "budget": "Presupuesto",
+      "addFavorite": "Añadir a favoritos",
+      "removeFavorite": "Remover de favoritos",
+      "info": "Información"
+    },
+    "home": {
+      "title": "Bienvenido a PeliPoli",
+      "description": "Proyecto Frontend Politécnico Grancolombiano. Busca películas, Entérate que películas son las más populares, están en él top o llegarán muy pronto.",
+      "subtitlePopular": "Películas Populares ❤",
+      "subtitleUpcoming": "Próximas Películas 🔥",
+      "subtitleTop": "Películas mejor calificadas ⭐"
+    },
+    "favorites": {
+      "title": "Favoritos",
+      "subtitle": "Tu lista de favoritos",
+      "resultsPartOne": "tienes",
+      "resultsPartTwo": "peliculas en tus favoritos.",
+      "msgAdd": "Pelicula añadida a favoritos",
+      "msgRemove": "Pelicula removida de favoritos"
+    },
+    "search": {
+      "title": "Buscar",
+      "subtitle": "Resultados para",
+      "results": "resultados encontrados",
+      "btnPlus": "Cargar más ..."
+    },
+    "notFound": {
+      "text": "Página no encotrada."
+    }
+  }
