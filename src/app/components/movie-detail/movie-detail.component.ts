@@ -14,13 +14,12 @@ export class MovieDetailComponent implements OnInit {
               private route: ActivatedRoute,
               private translater: TranslateService) { }
 
-  detail: {}
+  detail: any
 
   ngOnInit() {
     this.getDetail()
 
     this.translater.onLangChange.subscribe((event: LangChangeEvent) => {
-      this.detail = {}
       this.getDetail()
     });
   }
