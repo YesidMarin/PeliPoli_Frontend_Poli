@@ -24,4 +24,8 @@ export class MovieService {
     return this.http.get(`${this.url}/movie/top_rated`)
   }
 
+  getMovieDetail(movie_id): Observable<any> {
+    return this.http.get(`${this.url}/movie/${movie_id}`)
+}
+
 }

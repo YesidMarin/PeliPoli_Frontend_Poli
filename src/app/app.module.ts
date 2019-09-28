@@ -38,6 +38,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MovieComponent } from './components/movie/movie.component';
+import { MovieDetailComponent } from './components/movie-detail/movie-detail.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { MovieComponent } from './components/movie/movie.component';
     NotFoundComponent,
     HeaderComponent,
     HomeComponent,
-    MovieComponent
+    MovieComponent,
+    MovieDetailComponent
   ],
   imports: [
     BrowserModule,
