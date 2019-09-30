@@ -7,6 +7,12 @@ Consumo de WEB API ["THEMOVIEDB"](https://developers.themoviedb.org/3/getting-st
 
 Al iniciar el proyecto por primera vez ejecutar el comando `npm install` para instalar todas las dependecias que requiera el proyecto.
 
+
+## Link de la página
+
+Esta página esta desplegada en github :computer: . Has [CLIC](https://yesidmarin.github.io/PeliPoli_Frontend_Poli/) para visualizarla
+
+
 ## Tecnologias
 
 Angular 8, scss, webpack, nodejs, rxjs, API REST
