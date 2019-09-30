@@ -16,7 +16,7 @@
           data-toggle="dropdown" 
           id="navbarDropdown" 
           role="button" >
-          <svg-icon [src]="'../../assets/images/' + language.icon" [svgStyle]="{ 'width.px':25 }"></svg-icon>
+          <svg-icon [src]="'./assets/images/' + language.icon" [svgStyle]="{ 'width.px':25 }"></svg-icon>
           {{ language.description }}
          </a>
          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -24,12 +24,12 @@
             class="dropdown-item cursor-pointer" 
             (click)="setLanguage(lang)"
             *ngFor="let lang of languages">
-             <svg-icon [src]="'../../assets/images/' + lang.icon" [svgStyle]="{ 'width.px':25 }"></svg-icon>
+             <svg-icon [src]="'./assets/images/' + lang.icon" [svgStyle]="{ 'width.px':25 }"></svg-icon>
              <span class="ml-2">{{ lang.description }}</span>
            </a>
          </div>
       </li>
     </ul>
-    <img src="../../../assets/images/PeliPoli.png" class="img" alt="logo" width="207" height="50">
+    <img src="./assets/images/PeliPoli.png" class="img" alt="logo" width="207" height="50">
   </div>
 </nav>
