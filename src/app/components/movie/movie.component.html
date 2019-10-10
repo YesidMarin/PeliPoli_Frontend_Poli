@@ -2,7 +2,7 @@
     <div class="col-md-4 d-flex align-items-center">
       <img 
         [class]="movie.poster_path ? 'img-thumbnail' : 'img-fluid'"
-        [src]="movie.poster_path ? ('https://image.tmdb.org/t/p/w500' + movie.poster_path) : '../../../assets/images/not-found.png'" 
+        [src]="movie.poster_path ? ('https://image.tmdb.org/t/p/w500' + movie.poster_path) : './assets/images/not-found.png'" 
         [alt]="movie.title">
     </div>
     <div class="col-md-8">

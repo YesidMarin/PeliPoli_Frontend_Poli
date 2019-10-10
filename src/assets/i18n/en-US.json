@@ -23,16 +23,14 @@
       "subtitleTop": "Top Rated Movies ⭐"
     },
     "favorites": {
-      "title": "Favorits",
-      "subtitle": "Your favorites list",
-      "resultsPartOne": "you have",
+      "title": "Your favorites list",
+      "resultsPartOne": "You have",
       "resultsPartTwo": "movies on your favorits list.",
       "msgAdd": "Movie add to favorites",
       "msgRemove": "Movie removed from favorites"
     },
     "search": {
-      "title": "Search",
-      "subtitle": "Result for",
+      "title": "Result for",
       "results": "result found",
       "btnPlus": "Load more ..."
     },

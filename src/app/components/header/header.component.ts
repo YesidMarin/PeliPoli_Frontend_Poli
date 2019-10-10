@@ -20,6 +20,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     this.getLanguages()
+    this.initForm()
   }
 
   getLanguages(){
@@ -37,6 +38,19 @@ export class HeaderComponent implements OnInit {
     localStorage.setItem('language', JSON.stringify(lang))
     this.translateService.use(lang.value);
 
+  }
+
+  initForm(){
+    this.searchForm = this.fb.group({
+      searchText: this.fb.control('', [Validators.required])
+    })
+  }
+
+  search(form){
+    if (form.searchText) {
+      let text = btoa(form.searchText)
+      this.router.navigate(['/search', text])  
+    }
   }
  
 

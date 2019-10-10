@@ -23,16 +23,14 @@
       "subtitleTop": "Películas mejor calificadas ⭐"
     },
     "favorites": {
-      "title": "Favoritos",
-      "subtitle": "Tu lista de favoritos",
-      "resultsPartOne": "tienes",
+      "title": "Tu lista de favoritos",
+      "resultsPartOne": "Tienes",
       "resultsPartTwo": "peliculas en tus favoritos.",
       "msgAdd": "Pelicula añadida a favoritos",
       "msgRemove": "Pelicula removida de favoritos"
     },
     "search": {
-      "title": "Buscar",
-      "subtitle": "Resultados para",
+      "title": "Resultados para",
       "results": "resultados encontrados",
       "btnPlus": "Cargar más ..."
     },
