@@ -17,7 +17,7 @@
     },
     "home": {
       "title": "Bienvenido a PeliPoli",
-      "description": "Proyecto Frontend Politécnico Grancolombiano. Busca películas, Entérate que películas son las más populares, están en él top o llegarán muy pronto.",
+      "description": "Proyecto Frontend Politécnico Grancolombiano. Busca películas, Entérate que películas son las más populares, están en él top y próximos estrenos.",
       "subtitlePopular": "Películas Populares ❤",
       "subtitleUpcoming": "Próximas Películas 🔥",
       "subtitleTop": "Películas mejor calificadas ⭐"
@@ -26,8 +26,8 @@
       "title": "Tu lista de favoritos",
       "resultsPartOne": "Tienes",
       "resultsPartTwo": "peliculas en tus favoritos.",
-      "msgAdd": "Pelicula añadida a favoritos",
-      "msgRemove": "Pelicula removida de favoritos"
+      "msgAdd": "Pelicula añadida a tus favoritos",
+      "msgRemove": "Pelicula removida de tus favoritos"
     },
     "search": {
       "title": "Resultados para",
