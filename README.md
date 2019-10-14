@@ -1,4 +1,4 @@
-# PeliPoli
+# PeliPoli "El mundo de las peliculas"
 
 Proyecto Frontend del politécnico grancolombiano. 
 Consumo de WEB API ["THEMOVIEDB"](https://developers.themoviedb.org/3/getting-started/introduction) para la busqueda de peliculas.
@@ -30,7 +30,7 @@ Se aplica el concepto de gitflow.
 
 ## Ayuda adicional
 
-Para obtener más ayuda sobre el uso de CLI Angular ng helpo vaya a ver el archivo Léame de CLI Angular .
+Para obtener más ayuda sobre el uso de CLI Angular ng help o vaya a ver el archivo Léame de CLI Angular .
 
 ## Equipo de desarrollo
 
