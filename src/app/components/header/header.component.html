@@ -8,6 +8,9 @@
       <li class="nav-item px-2" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
         <a class="nav-link" [routerLink]="['']">{{ 'header.home' | translate }}</a>
       </li>
+      <li class="nav-item px-2" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['favorites']">{{ 'header.favorites' | translate }}</a>
+      </li>
       <li class="nav-item dropdown">
         <a 
           aria-expanded="false"
@@ -31,5 +34,21 @@
       </li>
     </ul>
     <img src="./assets/images/PeliPoli.png" class="img" alt="logo" width="207" height="50">
+    <form autocomplete="off" class="form-inline my-2 my-lg-0" [formGroup]="searchForm" novalidate>
+        <input 
+          aria-label="Pesquisar"
+          class="form-control"
+          formControlName="searchText"
+          id="searchText"
+          name="searchText"
+          placeholder="{{ 'header.search' | translate }}"
+          type="search">
+        <button 
+          class="btn btn-search" 
+          (click)="search(searchForm.value)"
+          type="submit">
+          <svg-icon class="bg-svg" src="./assets/images/search.svg" [svgStyle]="{ 'width.px':20 }"></svg-icon>
+        </button>
+      </form>
   </div>
 </nav>

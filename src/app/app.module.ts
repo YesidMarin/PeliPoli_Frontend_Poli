@@ -39,6 +39,12 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MovieComponent } from './components/movie/movie.component';
 import { MovieDetailComponent } from './components/movie-detail/movie-detail.component';
+import { FavoritesComponent } from './pages/favorites/favorites.component';
+import { SnackbarComponent } from './components/snackbar/snackbar.component';
+import { GeneralMovieComponent } from './pages/home/general-movie/general-movie.component';
+import { FavoriteDetailComponent } from './pages/favorites/favorite-detail/favorite-detail.component';
+import { SearchComponent } from './pages/search/search.component';
+import { SearchDetailComponent } from './pages/search/search-detail/search-detail.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +55,13 @@ import { MovieDetailComponent } from './components/movie-detail/movie-detail.com
     HeaderComponent,
     HomeComponent,
     MovieComponent,
-    MovieDetailComponent
+    MovieDetailComponent,
+    FavoritesComponent,
+    SnackbarComponent,
+    GeneralMovieComponent,
+    FavoriteDetailComponent,
+    SearchComponent,
+    SearchDetailComponent
   ],
   imports: [
     BrowserModule,
